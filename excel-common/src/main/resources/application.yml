@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: "/api"
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://103.120.227.77:3306/excel?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+  output:
+    ansi:
+      enabled: detect
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+logging:
+  level:
+    com.kundy.excelutils: debug

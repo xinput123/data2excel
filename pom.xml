@@ -11,6 +11,7 @@
     <modules>
         <module>poi-demo</module>
         <module>springboot-poi</module>
+        <module>excel-common</module>
     </modules>
 
 
